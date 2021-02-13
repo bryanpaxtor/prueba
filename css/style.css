@@ -1,0 +1,107 @@
+body{
+    background-color:azure;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .nav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+header{
+    background-color:chocolate;
+    width: 900px;
+    height: 60px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: #333;
+    width: 900px;
+    height: 80px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#contenedor{
+    background-color: darkolivegreen;
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.principal-contenedor{
+    background-color:silver;
+    width: 890px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+}
+
+
+.product-container{
+    background-color:teal;
+    float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 40%;
+    height: 45%;
+    padding: 4px;
+    border: 1px solid rgb(148, 17, 17);
+
+}
+.img-container{
+    float:left;
+    width:49%; 
+    height:90%;
+    border: 1px solid red;
+}
+.img-info{
+    float: left;
+    width:49%;
+    height:90%;
+    color: white;
+    border: 1px solid blue;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    padding: auto;
+}
+.a_products{
+    border: 1px solid white;
+    background-color: black;
+    color: greenyellow; 
+
+}
+.btn-confirmar{
+    width: 400px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid palevioletred;
+    text-align: center;
+    color: white;
+    font-size: large;
+}

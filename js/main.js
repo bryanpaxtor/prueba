@@ -135,7 +135,7 @@ let confirmarCompra = function() {
             }
         }
         $('#confirmar').append(`
-            <p><a class="" onclick="confirmarCompra();"> Confirmar compras</a> || <a class="" onclick="">Borrar Compras</a></p>
+            <p><a class="" onclick="confirmarCompra();"> Confirmar compras</a></p>
         `);
 
     } else if (title == "principal"){
